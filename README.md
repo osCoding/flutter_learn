@@ -2,8 +2,8 @@
  ## flutter 布局与绘制
  - 在performLayout方法里向child传递约束child!.layout(constraints,{bool parentUsesSize});
  - 在piant 方法中将offset传递给child，paint(PaintingContext context, Offset offset)
- ![image.png](https://upload-images.jianshu.io/upload_images/16314761-c32741263d0f9b83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://user-images.githubusercontent.com/13581424/133989597-00b92408-bfb0-4f60-aee0-9e37c54f5d38.png)
 
-![image.png](https://upload-images.jianshu.io/upload_images/16314761-7e3d83f4faf0cc7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](https://user-images.githubusercontent.com/13581424/133989637-54d46213-f476-4dfe-b19e-c9b715b5a74f.png)
 
 文章以Container，center 为例跟进源码阐明布局与绘制：https://www.jianshu.com/p/764e8e7f659a
