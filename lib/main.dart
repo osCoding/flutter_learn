@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learn/constraint_test/my_center_widget.dart';
+import 'package:flutter_learn/exposure/exposure_test.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: ExposurePage(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
